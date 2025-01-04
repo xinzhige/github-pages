@@ -2,3 +2,7 @@ baseURL = 'https://xinzhige.github.io/'
 languageCode = 'en-us'
 title = 'Zhige Xin'
 theme = 'hugo-coder'
+
+[params]
+  # Enable blog section
+  enableBlog = true
