@@ -1,4 +1,5 @@
 baseURL = 'https://xinzhige.github.io/'
+title = 'Home'
 languageCode = 'en-us'
 theme = 'hugo-coder'
 
