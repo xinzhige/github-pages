@@ -6,3 +6,4 @@ theme = 'hugo-coder'
 [params]
   # Enable blog section
   enableBlog = true
+  mainSections = ["posts"]
