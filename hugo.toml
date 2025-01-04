@@ -1,9 +1,52 @@
 baseURL = 'https://xinzhige.github.io/'
 languageCode = 'en-us'
-title = 'Zhige Xin'
 theme = 'hugo-coder'
 
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+style = "github-dark"
+
 [params]
-  # Enable blog section
+  author = "Zhige Xin"
+  info = "Senior Data Scientist"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  enableTwemoji = true
   enableBlog = true
   mainSections = ["posts"]
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+  # Social links
+  [[params.social]]
+    name = "Github"
+    icon = "fa-brands fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/xinzhige/"
+  [[params.social]]
+    name = "Linkedin"
+    icon = "fa-brands fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/xinzhige/"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
