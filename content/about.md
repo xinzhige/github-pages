@@ -9,7 +9,7 @@ I have expertise in machine learning, data analysis, and software development, w
 Professional Experience:
 
 * Senior Data Scientist at Akamai Technologies
-* Software Engineering Intern at Volkswagen Group of America's Innovation and Engineering Center
+* Software Engineering Intern at the Innovation and Engineering Center, Volkswagen Group of America
 
 Education:
 
