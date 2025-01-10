@@ -3,6 +3,9 @@ title = 'Home'
 languageCode = 'en-us'
 theme = 'hugo-coder'
 
+# Add this section for Google Analytics
+googleAnalytics = "G-RP5F8H887P"
+
 [pagination]
 pagerSize = 20
 
